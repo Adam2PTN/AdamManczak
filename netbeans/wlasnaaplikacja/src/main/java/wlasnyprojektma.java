@@ -30,7 +30,6 @@ public class wlasnyprojektma extends javax.swing.JFrame {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         am_jPanel = new javax.swing.JPanel();
-        am_jLabel_logo = new javax.swing.JLabel();
         am_jLabel_info2 = new javax.swing.JLabel();
         am_jLabel_info1 = new javax.swing.JLabel();
         am_jLabel_rate3 = new javax.swing.JLabel();
@@ -58,11 +57,9 @@ public class wlasnyprojektma extends javax.swing.JFrame {
         am_jMenuItem_pomoc = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Wlasny Projekt");
+        setTitle("Aplikacja imienia Adama Manczaka");
 
         am_jPanel.setBackground(new java.awt.Color(51, 51, 51));
-
-        am_jLabel_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pl/ad/wlasnaaplikacja/pixelprofooo.png"))); // NOI18N
 
         am_jLabel_info2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         am_jLabel_info2.setForeground(new java.awt.Color(0, 255, 255));
@@ -166,18 +163,15 @@ public class wlasnyprojektma extends javax.swing.JFrame {
             .addGroup(am_jPanelLayout.createSequentialGroup()
                 .addGroup(am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(am_jPanelLayout.createSequentialGroup()
-                        .addGroup(am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(am_jPanelLayout.createSequentialGroup()
-                                .addGap(32, 32, 32)
-                                .addComponent(am_jLabel_info1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, am_jPanelLayout.createSequentialGroup()
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(am_jLabel_info3)
-                                    .addComponent(am_jLabel_info2))
-                                .addGap(57, 57, 57)))
-                        .addComponent(am_jLabel_logo))
+                        .addGap(32, 32, 32)
+                        .addComponent(am_jLabel_info1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 304, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, am_jPanelLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(am_jLabel_info3)
+                            .addComponent(am_jLabel_info2))
+                        .addGap(313, 313, 313))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, am_jPanelLayout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(am_jButton_send)
@@ -197,17 +191,13 @@ public class wlasnyprojektma extends javax.swing.JFrame {
         am_jPanelLayout.setVerticalGroup(
             am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(am_jPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(am_jPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(am_jPanelLayout.createSequentialGroup()
-                        .addComponent(am_jLabel_info1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(am_jLabel_info2)
-                        .addGap(80, 80, 80)
-                        .addComponent(am_jLabel_info3)
-                        .addGap(58, 58, 58))
-                    .addComponent(am_jLabel_logo))
-                .addGap(18, 18, 18)
+                .addGap(36, 36, 36)
+                .addComponent(am_jLabel_info1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(am_jLabel_info2)
+                .addGap(80, 80, 80)
+                .addComponent(am_jLabel_info3)
+                .addGap(76, 76, 76)
                 .addComponent(am_jLabel_rate)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(am_jComboBox_rate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -381,7 +371,6 @@ public class wlasnyprojektma extends javax.swing.JFrame {
     private javax.swing.JLabel am_jLabel_info1;
     private javax.swing.JLabel am_jLabel_info2;
     private javax.swing.JLabel am_jLabel_info3;
-    private javax.swing.JLabel am_jLabel_logo;
     private javax.swing.JLabel am_jLabel_rate;
     private javax.swing.JLabel am_jLabel_rate1;
     private javax.swing.JLabel am_jLabel_rate2;
